@@ -1,0 +1,49 @@
+.h1{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 20px;
+    left: 30px;
+}
+.h2{
+    position:fixed;
+    left:45%;
+    color: rgb(95, 238, 23);
+}
+
+.img1{
+    border: 3px solid;
+}
+
+.div1{
+    border: 2px solid;
+}
+.div2{
+    border: 2px solid;
+}
+.div3{
+    border: 2px solid;
+}
+.div4{
+    border: 2px solid;
+}
+
+
+/* descendent selector */
+.div1 p{
+    background-color: aquamarine;
+}
+
+/* child selector */
+.div2 > p{
+    background-color: rgb(227, 255, 127);
+}
+
+/* adjacent selector */
+.div3 + p{
+    background-color:rgb(223, 150, 150);
+}
+
+/* sibling selector */
+.div4 ~ p{
+    background-color: rgb(134, 134, 206);
+}
