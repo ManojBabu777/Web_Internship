@@ -52,7 +52,7 @@ console.log(password);
 if( retrivedata.email=== username &&  retrivedata.password=== password){ 
 console.log("hello")
 button.removeAttribute("disabled"," ")
-window.location.href="./index.html"
+window.location.href="./home.html"
 }else{
     console.log("bye")
     button.setAttribute("disabled"," ")
